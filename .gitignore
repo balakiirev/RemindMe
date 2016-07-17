@@ -6,3 +6,7 @@
 .DS_Store
 /build
 /captures
+RemindMe.iml
+/app/.gitignore
+/build.gradle
+/.idea/codeStyleSettings.xml
