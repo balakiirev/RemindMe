@@ -40,13 +40,15 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         <android.support.design.widget.FloatingActionButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_plus"
             android:layout_gravity="end|bottom"
             android:layout_marginBottom="@dimen/floatingActionButton_margin"
-            android:layout_marginRight="@dimen/floatingActionButton_margin" />
+            android:layout_marginRight="@dimen/floatingActionButton_margin"
+            android:backgroundTint="@color/colorPrimary"/>
 
     </android.support.design.widget.CoordinatorLayout>
 
